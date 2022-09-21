@@ -37,7 +37,7 @@ resource "aws_ssm_document" "ad_join_domain" {
           "action" = "aws:domainJoin",
           "name"   = "domainJoin",
           "inputs" = {
-            "directoryId"    = "d-9067b92e80",
+            "directoryId"    = "d-12345f5678e90",
             "directoryName"  = "yourdomain.com",
             "dnsIpAddresses" = [
                 "12.23.34.56",  # replace IPs  used in your AD Directory services
