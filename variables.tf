@@ -13,11 +13,11 @@ variable "environment" {
 variable "subnet_id" {
   description = "Name of the subnet_id to be used"
   type        = string
-  default     = "subnet-03e86ee0584b0da9b"
+  default     = "subnet-012345678901234567"
 }
 
 variable "directoryId" {
   description = "Name of the subnet_id to be used"
   type        = string
-  default     = "d-9067b92e80"
+  default     = "d-123456789"
 }
